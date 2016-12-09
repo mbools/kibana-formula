@@ -15,4 +15,4 @@ kibana-config:
     - dataset: {{ kibana.config }}
     - formatter: "YAML"
     - watch_in:
-      - service:kibana-name
+      - service: kibana-name
